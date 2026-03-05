@@ -1,0 +1,132 @@
+/* quita el margen default del navegador */
+body {
+  margin: 0;
+  font-family: system-ui, Arial, sans-serif;
+}
+
+.container {
+  width: 100%;
+  max-width: none;
+  padding: 24px;
+}
+
+.title {
+  margin: 0 0 18px 0;  /* quita espacio raro arriba */
+  font-size: 48px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.btn {
+  padding: 10px 14px;
+  border: 0;
+  border-radius: 10px;
+  background: #111;
+  color: white;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+
+.table th,
+.table td {
+  text-align: center;
+  padding: 12px 16px;
+  border-bottom: 1px solid #eee;
+}
+
+.table th {
+  background: #f6f6f6;
+  font-weight: 700;
+}
+
+/* delete */
+.btnDanger {
+  padding: 8px 12px;
+  border: 1px solid #ffb3b3;
+  background: #ffecec;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.btnDanger:hover {
+  background: #ffd8d8;
+}
+
+.formHeader {
+  width: 100%;
+  gap: 8px;
+}
+
+.formHeader span {
+  text-align: center;
+}
+
+.formRow {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 120px auto;
+  gap: 8px;
+}
+
+.formRow input {
+  padding: 8px;
+}
+
+.formRow button {
+  padding: 8px 14px;
+}
+
+.table img {
+  display: block;
+  margin: 0 auto;
+}
+.actions {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  white-space: nowrap;
+}
+/* buscador centrado y con ancho */
+.search {
+  width: 320px;
+  display: block;
+  margin: 0 auto 10px;
+}
+
+/* barra de botones centrada */
+.sortBar {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 12px;
+  flex-wrap: wrap;
+}
+/* wrapper que centra la tabla */
+.tableWrap {
+  outline: 3px solid lime;
+  width: 100%;
+  display: flex !important;
+  justify-content: center !important;
+  width: 100%;
+}
+
+/* la tabla no debe estirarse */
+.table {
+   display: inline-table !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
