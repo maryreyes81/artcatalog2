@@ -108,3 +108,10 @@ button:focus-visible {
   border-radius: 8px;  /* opcional: más compacto */
   background-color: blueviolet;
 }
+
+.container {
+  max-width: 1200px !important;
+  margin: 0 auto !important;
+  padding: 40px 80px !important;
+  box-sizing: border-box !important;
+}

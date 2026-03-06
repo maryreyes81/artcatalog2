@@ -75,7 +75,7 @@ export default function App() {
   };
 
   return (
-    <div className="container">
+   <div className="container">
 
       <h1 className="title">Inventario Arte</h1>
 
