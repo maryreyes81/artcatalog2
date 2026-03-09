@@ -77,7 +77,7 @@ export default function App() {
   return (
    <div className="container">
 
-      <h1 className="title">Inventario Arte</h1>
+      <h1 className="title">InventArt</h1>
 
       <div className="card">
         <ItemForm

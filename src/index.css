@@ -28,6 +28,7 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  background-color: #be91cd;
 }
 
 h1 {
@@ -104,9 +105,9 @@ button:focus-visible {
 }
 .sortBar .btn {
   padding: 5px 15px;   /* menos espacio interno */
-  font-size: 15px;     /* texto más pequeño */
-  border-radius: 8px;  /* opcional: más compacto */
-  background-color: blueviolet;
+  font-size: 13px;     /* texto más pequeño */
+  border-radius: 5px;  /* opcional: más compacto */
+  background-color: rgb(118, 43, 187);
 }
 
 .container {
@@ -114,4 +115,7 @@ button:focus-visible {
   margin: 0 auto !important;
   padding: 40px 80px !important;
   box-sizing: border-box !important;
+}
+.btn{
+  background-color: rgb(175, 102, 232);
 }
